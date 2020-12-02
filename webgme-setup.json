@@ -1,0 +1,31 @@
+{
+  "components": {
+    "seeds": {
+      "Petrinet": {
+        "src": "src/seeds/Petrinet"
+      }
+    },
+    "plugins": {
+      "ModelicaCodeGenerator": {
+        "src": "src/plugins/ModelicaCodeGenerator",
+        "test": "test/plugins/ModelicaCodeGenerator"
+      }
+    },
+    "visualizers": {
+      "PlotView": {
+        "src": "panels/PlotView/PlotViewPanel",
+        "title": "PlotView",
+        "panel": "src/visualizers/panels/PlotView",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/PlotView"
+      }
+    },
+    "routers": {}
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {},
+    "visualizers": {},
+    "routers": {}
+  }
+}
